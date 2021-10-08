@@ -5,6 +5,7 @@ import Cards from "../components/cards";
 import ConceptExplanation from "../components/conceptExplanation";
 import Hero from "../components/hero";
 import Pricing from "../components/pricing";
+import ProfileCard from "../components/profileCard";
 import SvgTransition from "../components/svgTransition";
 
 const Home: NextPage = () => {
@@ -18,10 +19,11 @@ const Home: NextPage = () => {
       <Hero />
       <SvgTransition version={1} />
       <ConceptExplanation />
-      <Cards />
-      <Pricing />
-      <SvgTransition version={2} />
-      <CallToAction />
+      <ProfileCard />
+      {/* <Cards />
+      <Pricing /> */}
+      {/* <SvgTransition version={2} /> */}
+      {/* <CallToAction /> */}
     </main>
   );
 };
