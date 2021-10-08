@@ -8,7 +8,11 @@ export default function Navbar() {
             href="#"
           >
             {/* <!--Icon from: http://www.potlabicons.com/ --> */}
-            publica-fides
+            {/* <span className="text-emerald-700 align-text-bottom text-6xl">
+              @
+            </span> */}
+            <img src="/logo.png" className="h-16 w-16 float-left" />
+            <span className="align-middle pl-2">publica-fides</span>
           </a>
         </div>
         <div className="block lg:hidden pr-4">
